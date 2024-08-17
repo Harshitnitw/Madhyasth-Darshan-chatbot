@@ -8,7 +8,7 @@
         GROQ_API_KEY=”groqApiKeyValueCopiedFromGroqWebsiteAfterCreatingAccount”
 4. Download the vectorstore with the following command in terminal:
  
-        gdown https://drive.google.com/uc?id=1cwzPmElORHMN7wHdFvPTD_l33drB-ckI -O vectorstore_cache/your_filename.ext
+        gdown https://drive.google.com/uc?id=1cwzPmElORHMN7wHdFvPTD_l33drB-ckI -O vectorstore_cache/vectorstore.pkl
 5. Write the following command in terminal to start the chatbot:
  
         streamlit run main.py
