@@ -1,11 +1,13 @@
 # Steps to run this chatbot:
-Open the given directory in github codespace
-In terminal write `pip install -r requirements.txt` to download the necessary packages
-In .env file (create it in the root directory if not present), save your Groq API key like this:
-    GROQ_API_KEY=”groqApiKeyValueCopiedFromGroqWebsiteAfterCreatingAccount”
-Download the vectorstore with the following command in terminal:
-    gdown https://drive.google.com/uc?id=1cwzPmElORHMN7wHdFvPTD_l33drB-ckI -O vectorstore_cache/your_filename.ext
-Write `streamlit run main.py` in terminal to start the chatbot
+1. Open the given directory in github codespace
+2. In terminal write the following to install the necessary packages:
+        `pip install -r requirements.txt`
+4. In .env file (create it in the root directory if not present), save your Groq API key like this:
+        `GROQ_API_KEY=”groqApiKeyValueCopiedFromGroqWebsiteAfterCreatingAccount”`
+5. Download the vectorstore with the following command in terminal:
+        `gdown https://drive.google.com/uc?id=1cwzPmElORHMN7wHdFvPTD_l33drB-ckI -O vectorstore_cache/your_filename.ext`
+6. Write the following command in terminal to start the chatbot:
+        `streamlit run main.py`
 
 
 # Report on creation of Madhyasth Darshan chatbot
