@@ -4,9 +4,9 @@
         `pip install -r requirements.txt`
 4. In .env file (create it in the root directory if not present), save your Groq API key like this:
         `GROQ_API_KEY=”groqApiKeyValueCopiedFromGroqWebsiteAfterCreatingAccount”`
-5. Download the vectorstore with the following command in terminal:
+5. Download the vectorstore with the following command in terminal:\n
         `gdown https://drive.google.com/uc?id=1cwzPmElORHMN7wHdFvPTD_l33drB-ckI -O vectorstore_cache/your_filename.ext`
-6. Write the following command in terminal to start the chatbot:
+6. Write the following command in terminal to start the chatbot:\n
         `streamlit run main.py`
 
 
