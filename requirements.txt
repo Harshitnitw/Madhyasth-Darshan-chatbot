@@ -1,0 +1,14 @@
+langchain_community
+langchain
+langchain_huggingface
+langchain_core==0.2.22
+langchain_text_splitters
+faiss-cpu
+sentence_transformers
+langchain_groq
+python-dotenv
+docx2txt
+pypdf
+streamlit
+gdown
+streamlit
