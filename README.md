@@ -21,17 +21,17 @@
 
 2. Key Components:
 
- LLM: llama-3.1-70b-Versatile open source model using Groq API
- 
- Embeddings: HuggingFaceEmbeddings with "AkshitaS/bhasha-embed-v0" open source model (especially designed for hindi and romanised hindi
- 
- Vector Store: FAISS (cpu)
- 
- Document Loaders: PyPDFLoader and Docx2txtLoader
- 
- Text Splitter: RecursiveCharacterTextSplitter (chunk size = 500, chunk overlap=50)
- 
- Currently using parichay (both Hindi and English), samvaad 1, 2, arthshastha, adhyatmavad, samvidhan, Bhautikvaad and 6 books and documents written by students.
+\tLLM: llama-3.1-70b-Versatile open source model using Groq API
+
+Embeddings: HuggingFaceEmbeddings with "AkshitaS/bhasha-embed-v0" open source model (especially designed for hindi and romanised hindi
+
+Vector Store: FAISS (cpu)
+
+Document Loaders: PyPDFLoader and Docx2txtLoader
+
+Text Splitter: RecursiveCharacterTextSplitter (chunk size = 500, chunk overlap=50)
+
+Currently using parichay (both Hindi and English), samvaad 1, 2, arthshastha, adhyatmavad, samvidhan, Bhautikvaad and 6 books and documents written by students.
 
 3. Functionality:
    
