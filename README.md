@@ -21,7 +21,7 @@
 
 2. Key Components:
 
-\tLLM: llama-3.1-70b-Versatile open source model using Groq API
+- LLM: llama-3.1-70b-Versatile open source model using Groq API
 
 Embeddings: HuggingFaceEmbeddings with "AkshitaS/bhasha-embed-v0" open source model (especially designed for hindi and romanised hindi
 
